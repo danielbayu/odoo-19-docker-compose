@@ -83,7 +83,7 @@ The **addons/** folder contains custom addons. Just put your custom addons if yo
 
 * To change Odoo configuration, edit file: **etc/odoo.conf**.
 * Log file: **etc/odoo-server.log**
-* Default database password (**admin_passwd**) is `minhng.info`, please change it @ [etc/odoo.conf#L75](/etc/odoo.conf#L75)
+* Default database password (**admin_passwd**) is `*#Oke123#*`, please change it @ [etc/odoo.conf#L75](/etc/odoo.conf#L75)
 
 ## Odoo container management
 
@@ -149,9 +149,3 @@ server {
 <p>
 <img src="screenshots/odoo-19-product-form.jpg" width="100%">
 </p>
-
-## ☕ Buy Me a Coffee
-
-If you find this project helpful, consider buying me a coffee to support my work!
-
-<a href="https://buymeacoffee.com/minhng.info" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
