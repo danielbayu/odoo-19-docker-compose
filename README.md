@@ -2,7 +2,7 @@
 
 ## Quick Installation
 
-Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run the following to set up first Odoo instance @ `localhost:10019` (default master password: `minhng.info`):
+Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run the following to set up first Odoo instance @ `localhost:10019` (default master password: `*#Oke123#*`):
 
 ``` bash
 curl -s https://raw.githubusercontent.com/danielbayu/odoo-19-docker-compose/master/run.sh | bash -s odoo-one 10019 20019
@@ -14,7 +14,7 @@ curl -s https://raw.githubusercontent.com/danielbayu/odoo-19-docker-compose/mast
 ```
 
 Some arguments:
-* First argument (**odoo-one**): Odoo deploy folder
+* First argument (**odoo-19-one**): Odoo deploy folder
 * Second argument (**10019**): Odoo port
 * Third argument (**20019**): live chat port
 
