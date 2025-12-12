@@ -31,12 +31,12 @@ fi
 # Update docker-compose configuration
 if [[ "$OSTYPE" == "darwin"* ]]; then
   # macOS sed syntax
-  sed -i '' 's/10019/'$PORT'/g' $DESTINATION/docker-compose.yml
-  sed -i '' 's/20019/'$CHAT'/g' $DESTINATION/docker-compose.yml
+  sed -i '' 's/30019/'$PORT'/g' $DESTINATION/docker-compose.yml
+  sed -i '' 's/40019/'$CHAT'/g' $DESTINATION/docker-compose.yml
 else
   # Linux sed syntax
-  sed -i 's/10019/'$PORT'/g' $DESTINATION/docker-compose.yml
-  sed -i 's/20019/'$CHAT'/g' $DESTINATION/docker-compose.yml
+  sed -i 's/30019/'$PORT'/g' $DESTINATION/docker-compose.yml
+  sed -i 's/40019/'$CHAT'/g' $DESTINATION/docker-compose.yml
 fi
 
 # Set file and directory permissions after installation
